@@ -19,22 +19,12 @@ jobs:
       - name: 🔧 Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.134.0'  # 👈 Update to latest version
+          hugo-version: '0.151.0'  # 👈 Match your local version
           extended: true
-
-      - name: 🔍 Debug - Check structure
-        run: |
-          echo "=== Repository structure ==="
-          ls -la
-          echo "=== Themes directory ==="
-          ls -la themes/ || echo "No themes directory"
-          echo "=== Hugo config ==="
-          cat hugo.toml
 
       - name: 🔨 Build site
         run: |
           hugo version
-          hugo mod graph || echo "No modules"
           hugo --minify --logLevel info
 
       - name: 🚀 Deploy to GitHub Pages
