@@ -9,9 +9,9 @@ author: "Một Lập Trình Viên Trẻ"
 tags: ["javascript", "dom", "frontend", "html", "sinh-vien-it"]
 ---
 
-## HTML tĩnh, JavaScript động123
+## HTML tĩnh, JavaScript động
 
-Bạn đã học HTML và CSS. Bạn có thể xây dựng một trang web trông rất đẹp, có bố cục hẳn hoi. Nhưng nó có một vấn đề: nó "chết". Nó là một tài liệu tĩnh. Bạn bấm vào một cái nút, không có gì xảy ra. Bạn điền vào một form, nó cứ trơ trơ ra đó.
+123Bạn đã học HTML và CSS. Bạn có thể xây dựng một trang web trông rất đẹp, có bố cục hẳn hoi. Nhưng nó có một vấn đề: nó "chết". Nó là một tài liệu tĩnh. Bạn bấm vào một cái nút, không có gì xảy ra. Bạn điền vào một form, nó cứ trơ trơ ra đó.
 
 Để thổi hồn vào trang web, làm cho nó trở nên sống động và tương tác được, chúng ta cần đến **JavaScript**. Nhưng làm thế nào để JavaScript có thể "nhìn thấy" và "chạm vào" các thẻ HTML mà bạn đã viết?
 
