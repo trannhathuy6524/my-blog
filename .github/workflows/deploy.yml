@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: 📥 Checkout
+      - name: 📥 Checkout source code
         uses: actions/checkout@v4
         with:
           submodules: recursive
@@ -24,10 +24,10 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           npm ci
-          chmod +x node_modules/.bin/tailwindcss
+          chmod +x node_modules/.bin/tailwindcss || echo "tailwindcss not found"
 
       - name: 🔧 Setup Hugo
-        uses: peaceiris/actions-hugo@v2  # ✅ Đúng action name
+        uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.151.0'
           extended: true
@@ -36,20 +36,22 @@ jobs:
         run: |
           echo "Hugo version: $(hugo version)"
           echo "Node version: $(node --version)"
-          echo "Checking vendored modules..."
-          ls -la _vendor/ || echo "No vendored modules"
-          echo "Checking existing public..."
-          ls -la public/ || echo "No public directory"
+          echo "Current directory: $(pwd)"
+          echo "Directory contents:"
+          ls -la
 
-      - name: 🔨 Build site (using vendored modules)
+      - name: 🔨 Build site
         run: |
-          # Use vendored modules, skip module download
           hugo --minify --logLevel info
         env:
           PATH: ${{ github.workspace }}/node_modules/.bin:${{ env.PATH }}
-          GOPROXY: off
-          GOSUMDB: off
-          HUGO_MODULE_PROXY: off
+
+      - name: 🔍 Check build output
+        run: |
+          echo "Public directory contents:"
+          ls -la public/
+          echo "Index file exists:"
+          ls -la public/index.html || echo "No index.html found"
 
       - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -59,7 +61,6 @@ jobs:
           publish_branch: main
           publish_dir: ./public
           force_orphan: true
-          cname: trannhathuy6524.github.io
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: '🚀 Deploy from ${{ github.repository }}@${{ github.sha }}'
+          user_name: 'trannhathuy6524'
+          user_email: 'trannhathuy6524@users.noreply.github.com'
+          commit_message: '🚀 Deploy Hugo site from ${{ github.sha }}'
