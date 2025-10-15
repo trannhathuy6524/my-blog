@@ -16,11 +16,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: 🟢 Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '1.21'
-
       - name: 🟢 Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -32,25 +27,29 @@ jobs:
           chmod +x node_modules/.bin/tailwindcss
 
       - name: 🔧 Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: actions/setup-hugo@v2
         with:
           hugo-version: '0.151.0'
           extended: true
 
-      - name: 🔍 Debug paths
+      - name: 🔍 Debug environment
         run: |
-          echo "Go version: $(go version)"
-          echo "Node version: $(node --version)"
-          echo "NPM version: $(npm --version)"
           echo "Hugo version: $(hugo version)"
-          echo "PATH: $PATH"
+          echo "Node version: $(node --version)"
+          echo "Checking vendored modules..."
+          ls -la _vendor/ || echo "No vendored modules"
+          echo "Checking existing public..."
+          ls -la public/ || echo "No public directory"
 
-      - name: 🔨 Build site
+      - name: 🔨 Build site (using vendored modules)
         run: |
-          hugo mod verify
+          # Use vendored modules, skip module download
           hugo --minify --logLevel info
         env:
           PATH: ${{ github.workspace }}/node_modules/.bin:${{ env.PATH }}
+          GOPROXY: off
+          GOSUMDB: off
+          HUGO_MODULE_PROXY: off
 
       - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
