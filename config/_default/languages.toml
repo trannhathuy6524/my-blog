@@ -3,4 +3,12 @@
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2 # Sửa thành 2
+
+################ Vietnamese language ##################
+[vi]
+languageName = "Vi"
+languageCode = "vi"
+contentDir = "content/vietnamese"
+title = "Blog của tôi"
+weight = 1 # Đặt là 1 để ưu tiên

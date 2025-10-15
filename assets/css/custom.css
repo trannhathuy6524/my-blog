@@ -1,1 +1,155 @@
-/* Add your own custom styles here */
+
+.banner {
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+  
+  .banner-title {
+    background: linear-gradient(45deg, #61dafb, #4ecdc4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .banner-content {
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+}
+
+.feature-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  
+  .skill-item {
+    background: rgba(97, 218, 251, 0.1);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border-left: 3px solid #61dafb;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background: rgba(97, 218, 251, 0.2);
+      transform: translateX(5px);
+    }
+  }
+}
+
+
+.project-card {
+  background: #1e1e1e;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border: 1px solid #333;
+  
+  &:hover {
+    transform: translateY(-10px);
+    border-color: #61dafb;
+    box-shadow: 0 20px 40px rgba(97, 218, 251, 0.1);
+  }
+  
+  .project-image {
+    height: 200px;
+    background: linear-gradient(45deg, #61dafb, #4ecdc4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .project-content {
+    padding: 1.5rem;
+    
+    h3 {
+      color: #61dafb;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      color: #ccc;
+      line-height: 1.6;
+    }
+  }
+}
+
+
+.cta-section {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
+  
+  .cta-title {
+    color: #61dafb;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-description {
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 2.5rem;
+  }
+  
+  .feature-item,
+  .project-card {
+    margin-bottom: 2rem;
+  }
+  
+  .skills-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+
+body.dark {
+  .feature-item {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    
+    &:hover {
+      border-color: #61dafb;
+    }
+  }
+  
+  .project-card {
+    background: #2d2d2d;
+  }
+}

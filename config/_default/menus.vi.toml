@@ -1,0 +1,63 @@
+############# Vietnamese navigation ##############
+
+# main menu
+[[main]]
+name = "Trang chủ"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Giới thiệu"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Thành phần"
+url = "/elements"
+weight = 3
+
+[[main]]
+weight = 4
+name = "Trang"
+
+[[main]]
+parent = "Trang"
+name = "Bài viết"
+url = "/blog"
+
+[[main]]
+parent = "Trang"
+name = "Liên hệ"
+url = "/contact"
+
+[[main]]
+parent = "Trang"
+name = "Tác giả"
+url = "/authors"
+
+[[main]]
+parent = "Trang"
+name = "Chuyên mục"
+url = "/categories"
+
+[[main]]
+parent = "Trang"
+name = "Trang 404"
+url = "/404"
+
+
+# footer menu
+[[footer]]
+name = "Giới thiệu"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Thành phần"
+url = "/elements"
+weight = 2
+
+[[footer]]
+name = "Chính sách bảo mật"
+url = "/privacy-policy"
+weight = 3

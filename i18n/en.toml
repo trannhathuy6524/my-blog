@@ -1,0 +1,11 @@
+[full_name]
+other = "Full Name"
+
+[working_mail]
+other = "Working Mail"
+
+[anything_else]
+other = "Anything else?"
+
+[submit]
+other = "Submit"

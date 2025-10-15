@@ -1,0 +1,11 @@
+[full_name]
+other = "Họ và Tên"
+
+[working_mail]
+other = "Email Công Việc"
+
+[anything_else]
+other = "Nội dung"
+
+[submit]
+other = "Gửi"

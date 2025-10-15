@@ -1,0 +1,725 @@
+{{ define "main" }}
+<div class="fullscreen-about-container">
+
+  <!-- Hero Section -->
+  <section class="section-fullscreen hero-section" id="hero">
+    <div class="section-content">
+      <div class="hero-content">
+        {{ if .Params.image }}
+          <div class="avatar-container">
+            {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "avatar-image" "Size" "256x256") }}
+          </div>
+        {{ end }}
+        <h1 class="hero-title">{{ .Title }}</h1>
+        <p class="hero-description">{{ .Params.description }}</p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary scroll-link">Tìm hiểu thêm</a>
+          <a href="#contact" class="btn btn-outline scroll-link">Liên hệ</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section-fullscreen about-section" id="about">
+    <div class="section-content">
+      <div class="about-content">
+        <h2 class="section-title">🎯 Về mình</h2>
+        <div class="about-text">
+          <p>Mình là <strong>Trần Nhật Huy</strong> – sinh viên <strong>Công nghệ Thông tin</strong> năm cuối tại Đại học ABC. Mình có niềm đam mê lớn với việc xây dựng những ứng dụng web hiện đại và trải nghiệm người dùng tuyệt vời.</p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon">🎓</div>
+            <h4>Học vấn</h4>
+            <p>Sinh viên Công nghệ Thông tin năm cuối</p>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">💻</div>
+            <h4>Chuyên môn</h4>
+            <p>Full-stack Development & Game Development</p>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">🚀</div>
+            <h4>Mục tiêu</h4>
+            <p>Trở thành Developer chuyên nghiệp</p>
+          </div>
+        </div>
+        <a href="#skills" class="btn btn-outline scroll-link">Xem kỹ năng</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section-fullscreen skills-section" id="skills">
+    <div class="section-content">
+      <h2 class="section-title">🛠️ Chuyên môn</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-icon">🎨</div>
+          <h3>Frontend Development</h3>
+          <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Responsive Design</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon">⚙️</div>
+          <h3>Backend Development</h3>
+          <ul>
+            <li>C# & ASP.NET Core</li>
+            <li>MVC Architecture</li>
+            <li>SQL Server</li>
+            <li>Web API</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon">🎮</div>
+          <h3>Game Development</h3>
+          <ul>
+            <li>Unity 2D</li>
+            <li>C# Scripting</li>
+            <li>Game Physics</li>
+            <li>Level Design</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="skill-icon">🎨</div>
+          <h3>UI/UX Design</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Adobe Photoshop</li>
+            <li>User Experience</li>
+            <li>Prototyping</li>
+          </ul>
+        </div>
+      </div>
+      <a href="#current" class="btn btn-outline scroll-link">Hiện tại đang làm gì</a>
+    </div>
+  </section>
+
+  <!-- Current Activities Section -->
+  <section class="section-fullscreen current-section" id="current">
+    <div class="section-content">
+      <h2 class="section-title">🌱 Hiện tại mình đang</h2>
+      <div class="current-activities">
+        <div class="activity-item">
+          <div class="activity-icon">📚</div>
+          <h4>Học tập</h4>
+          <p>Học sâu về <strong>ASP.NET Core Web API</strong> và <strong>React.js</strong></p>
+        </div>
+        <div class="activity-item">
+          <div class="activity-icon">💼</div>
+          <h4>Dự án</h4>
+          <p>Phát triển các dự án cá nhân để nâng cao kỹ năng</p>
+        </div>
+        <div class="activity-item">
+          <div class="activity-icon">👥</div>
+          <h4>Cộng đồng</h4>
+          <p>Tham gia các community lập trình để học hỏi kinh nghiệm</p>
+        </div>
+        <div class="activity-item">
+          <div class="activity-icon">🎯</div>
+          <h4>Chuẩn bị</h4>
+          <p>Tìm kiếm cơ hội thực tập và làm việc</p>
+        </div>
+      </div>
+      <a href="#hobbies" class="btn btn-outline scroll-link">Sở thích</a>
+    </div>
+  </section>
+
+  <!-- Hobbies Section -->
+  <section class="section-fullscreen hobbies-section" id="hobbies">
+    <div class="section-content">
+      <h2 class="section-title">🎮 Sở thích</h2>
+      <div class="hobbies-content">
+        <div class="hobby-main">
+          <div class="hobby-icon">🎮</div>
+          <h3>Game Development</h3>
+          <p>Ngoài lập trình web, mình còn rất yêu thích <strong>game development</strong>. Mình đã tạo ra một số game 2D đơn giản bằng Unity và đang có kế hoạch phát triển những dự án game lớn hơn trong tương lai.</p>
+        </div>
+        <div class="hobby-projects">
+          <div class="project-item">
+            <h4>🕹️ Platformer Game</h4>
+            <p>Game nhảy cót 2D với Unity</p>
+          </div>
+          <div class="project-item">
+            <h4>🏃 Endless Runner</h4>
+            <p>Game chạy vô tận với physics realistic</p>
+          </div>
+          <div class="project-item">
+            <h4>🧩 Puzzle Game</h4>
+            <p>Game giải đố với level system</p>
+          </div>
+        </div>
+      </div>
+      <a href="#goals" class="btn btn-outline scroll-link">Mục tiêu tương lai</a>
+    </div>
+  </section>
+
+  <!-- Goals Section -->
+  <section class="section-fullscreen goals-section" id="goals">
+    <div class="section-content">
+      <h2 class="section-title">🎯 Mục tiêu</h2>
+      <div class="goals-timeline">
+        <div class="goal-item short-term">
+          <div class="goal-period">Ngắn hạn</div>
+          <div class="goal-content">
+            <h3>Full-stack Developer</h3>
+            <p>Trở thành Full-stack Developer chuyên nghiệp với kiến thức vững chắc về cả frontend và backend</p>
+            <ul>
+              <li>Thành thạo React.js và ASP.NET Core</li>
+              <li>Hoàn thành 5+ dự án portfolio</li>
+              <li>Tìm được vị trí Developer đầu tiên</li>
+            </ul>
+          </div>
+        </div>
+        <div class="goal-item long-term">
+          <div class="goal-period">Dài hạn</div>
+          <div class="goal-content">
+            <h3>Tech Entrepreneur</h3>
+            <p>Xây dựng startup công nghệ riêng và phát triển các sản phẩm game indie</p>
+            <ul>
+              <li>Thành lập startup công nghệ</li>
+              <li>Phát triển game indie thành công</li>
+              <li>Xây dựng team development mạnh</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="#quote" class="btn btn-outline scroll-link">Triết lý</a>
+    </div>
+  </section>
+
+  <!-- Quote Section -->
+  <section class="section-fullscreen quote-section" id="quote">
+    <div class="section-content">
+      <div class="quote-container">
+        <div class="quote-icon">💭</div>
+        <blockquote class="main-quote">
+          <p>"Code is poetry written in logic"</p>
+        </blockquote>
+        <div class="quote-explanation">
+          <p>Đó là cách mình nhìn nhận về lập trình. Mỗi dòng code không chỉ là lệnh máy tính mà còn là cách mình thể hiện suy nghĩ và giải quyết vấn đề.</p>
+        </div>
+        {{ with site.Data.homepage.about.button }}
+          {{ if .enable }}
+            <a href="{{ .link | absURL }}" class="btn btn-primary">{{ .label }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<style>
+/* Full Screen About Container */
+.fullscreen-about-container {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Section Base Styles */
+.section-fullscreen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.section-content {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  animation: fadeInUp 1s ease-out;
+  z-index: 1;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+  color: white;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.avatar-container {
+  position: relative;
+}
+
+.avatar-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #61dafb;
+  box-shadow: 0 0 30px rgba(97, 218, 251, 0.3);
+  animation: float 3s ease-in-out infinite;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+  background: linear-gradient(45deg, #61dafb, #4ecdc4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  color: #e0e0e0;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Scroll Indicator */
+.scroll-indicator {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.scroll-arrow {
+  width: 2px;
+  height: 30px;
+  background: white;
+  position: relative;
+  animation: scrollBounce 2s infinite;
+}
+
+.scroll-arrow::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -3px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(45deg);
+}
+
+/* About Section */
+.about-section {
+  background: #1a1a1a;
+  color: white;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #61dafb;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.highlight-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 1px solid rgba(97, 218, 251, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.highlight-item:hover {
+  transform: translateY(-5px);
+  border-color: #61dafb;
+}
+
+.highlight-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Skills Section */
+.skills-section {
+  background: #0f0f23;
+  color: white;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.skill-category {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(97, 218, 251, 0.2);
+  transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+  transform: translateY(-10px);
+  border-color: #61dafb;
+  box-shadow: 0 20px 40px rgba(97, 218, 251, 0.1);
+}
+
+.skill-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.skill-category h3 {
+  color: #61dafb;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-category li {
+  padding: 0.5rem 0;
+  color: #ccc;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.skill-category li:last-child {
+  border-bottom: none;
+}
+
+/* Current Activities Section */
+.current-section {
+  background: #1a1a2e;
+  color: white;
+}
+
+.current-activities {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.activity-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 15px;
+  border-left: 4px solid #4ecdc4;
+  transition: transform 0.3s ease;
+}
+
+.activity-item:hover {
+  transform: translateX(10px);
+}
+
+.activity-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Hobbies Section */
+.hobbies-section {
+  background: #16213e;
+  color: white;
+}
+
+.hobbies-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.hobby-main {
+  text-align: left;
+}
+
+.hobby-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.hobby-main h3 {
+  color: #61dafb;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hobby-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #ff6b6b;
+}
+
+/* Goals Section */
+.goals-section {
+  background: #0f0f23;
+  color: white;
+}
+
+.goals-timeline {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.goal-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
+  border-radius: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.goal-item.short-term {
+  border-top: 4px solid #28a745;
+}
+
+.goal-item.long-term {
+  border-top: 4px solid #007bff;
+}
+
+.goal-period {
+  background: #61dafb;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.goal-content h3 {
+  color: #61dafb;
+  margin-bottom: 1rem;
+}
+
+.goal-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goal-content li {
+  padding: 0.5rem 0;
+  color: #ccc;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.goal-content li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #28a745;
+}
+
+/* Quote Section */
+.quote-section {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
+  color: white;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote-icon {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  opacity: 0.7;
+}
+
+.main-quote {
+  font-size: 2.5rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+  color: #61dafb;
+  line-height: 1.4;
+}
+
+.quote-explanation {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  color: #e0e0e0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: #61dafb;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background: #4ecdc4;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  border-color: #61dafb;
+  color: #61dafb;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #61dafb;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+.scroll-link {
+  cursor: pointer;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes scrollBounce {
+  0%, 100% { height: 10px; }
+  50% { height: 30px; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-fullscreen {
+    padding: 40px 15px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .main-quote {
+    font-size: 1.8rem;
+  }
+  
+  .hobbies-content,
+  .goals-timeline {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-highlights,
+  .skills-grid,
+  .current-activities {
+    grid-template-columns: 1fr;
+  }
+  
+  .avatar-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Smooth scrolling for navigation links
+  const scrollLinks = document.querySelectorAll('.scroll-link');
+  
+  scrollLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+      
+      if (targetSection) {
+        targetSection.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+  
+  // Intersection Observer for animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+  
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.animation = 'fadeInUp 1s ease-out';
+      }
+    });
+  }, observerOptions);
+  
+  document.querySelectorAll('.section-fullscreen').forEach(section => {
+    observer.observe(section);
+  });
+});
+</script>
+{{ end }}

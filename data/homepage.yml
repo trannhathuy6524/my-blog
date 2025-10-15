@@ -1,0 +1,160 @@
+# ===============================
+# Section: About
+# ===============================
+about:
+  enable: true
+  title: "Về Tôi"
+  image: "images/avatar.png"
+  content: "Mình là Trần Nhật Huy – sinh viên IT năm cuối đam mê phát triển web full-stack và game development. Mình yêu thích việc tạo ra những sản phẩm công nghệ có ý nghĩa và trải nghiệm người dùng tuyệt vời."
+  skills:
+    - HTML
+    - CSS
+    - JavaScript
+    - C#
+    - ASP.NET Core MVC
+    - SQL Server
+    - Unity
+    - React.js
+    - Git & GitHub
+    - UI/UX Design
+  button:
+    enable: true
+    label: "Liên hệ với mình"
+    link: "contact"
+
+# ===============================
+# Section: Features/Highlights
+# ===============================
+features:
+  enable: true
+  title: "Điều tôi có thể làm"
+  items:
+    - icon: "💻"
+      title: "Web Development"
+      description: "Phát triển website hiện đại với ASP.NET Core MVC và frontend technologies"
+    
+    - icon: "🎮"
+      title: "Game Development"
+      description: "Tạo ra các game 2D bằng Unity với gameplay thú vị và đồ họa đẹp mắt"
+    
+    - icon: "🎨"
+      title: "UI/UX Design"
+      description: "Thiết kế giao diện thân thiện, responsive và tối ưu trải nghiệm người dùng"
+    
+    - icon: "📱"
+      title: "Responsive Design"
+      description: "Đảm bảo website hoạt động mượt mà trên mọi thiết bị từ desktop đến mobile"
+
+# ===============================
+# Section: Banner
+# ===============================
+banner:
+  enable: true
+  title: "Trần Nhật Huy"
+  subtitle: "Full-stack Developer & Game Enthusiast"
+  description: "Sinh viên IT đam mê tạo ra những sản phẩm công nghệ có ý nghĩa"
+  image: "images/avatar.png"
+  video:
+    enable: false
+    video_embed_link: ""
+  form:
+    enable: false
+  button:
+    enable: true
+    label: "Xem Portfolio"
+    link: "/about"
+    
+# ===============================
+# Section: About
+# ===============================
+about:
+  enable: true
+  title: "Về Tôi"
+  image: "images/avatar.png"
+  content: "Mình là Trần Nhật Huy – sinh viên IT năm cuối đam mê phát triển web full-stack và game development. Mình yêu thích việc tạo ra những sản phẩm công nghệ có ý nghĩa và trải nghiệm người dùng tuyệt vời."
+  skills:
+    - HTML5 & CSS3
+    - JavaScript (ES6+)
+    - React.js
+    - C# & ASP.NET Core
+    - SQL Server
+    - Unity 2D
+    - Git & GitHub
+    - UI/UX Design
+    - Responsive Design
+    - Web API Development
+  button:
+    enable: true
+    label: "Liên hệ với mình"
+    link: "/contact"
+
+# ===============================
+# Section: Features/Highlights
+# ===============================
+features:
+  enable: true
+  title: "Điều tôi có thể làm"
+  items:
+    - icon: "💻"
+      title: "Web Development"
+      description: "Phát triển ứng dụng web full-stack với ASP.NET Core và modern frontend technologies"
+    
+    - icon: "🎮"
+      title: "Game Development"
+      description: "Tạo ra các game 2D thú vị bằng Unity với gameplay engaging và đồ họa đẹp mắt"
+    
+    - icon: "🎨"
+      title: "UI/UX Design"
+      description: "Thiết kế giao diện user-friendly, responsive và tối ưu trải nghiệm người dùng"
+    
+    - icon: "📱"
+      title: "Responsive Design"
+      description: "Đảm bảo website hoạt động mượt mà trên mọi thiết bị từ desktop đến mobile"
+    
+    - icon: "🔧"
+      title: "Backend Development"
+      description: "Xây dựng API robust, database design và server-side logic với C# và SQL Server"
+    
+    - icon: "🚀"
+      title: "Performance Optimization"
+      description: "Tối ưu hóa performance, SEO và user experience cho các ứng dụng web"
+
+# ===============================
+# Section: Services
+# ===============================
+services:
+  enable: true
+  title: "Dự án nổi bật"
+  items:
+    - title: "Student Management System"
+      description: "Hệ thống quản lý sinh viên full-stack với ASP.NET Core MVC"
+      image: "images/project-1.png"
+      link: "/blog/student-management-system"
+      
+    - title: "2D Platformer Game"
+      description: "Game nhảy cót 2D với Unity, physics engine và level progression"
+      image: "images/project-2.png"
+      link: "/blog/2d-platformer-game"
+      
+    - title: "Portfolio Website"
+      description: "Website cá nhân responsive với modern design và animations"
+      image: "images/project-3.png"
+      link: "/blog/portfolio-website"
+
+# ===============================
+# Section: Testimonials
+# ===============================
+testimonials:
+  enable: false
+  
+# ===============================
+# Section: CTA
+# ===============================
+cta:
+  enable: true
+  title: "Sẵn sàng hợp tác?"
+  description: "Nếu bạn có dự án thú vị hoặc muốn thảo luận về công nghệ, hãy liên hệ với mình!"
+  button:
+    enable: true
+    label: "Liên hệ ngay"
+    link: "/contact"

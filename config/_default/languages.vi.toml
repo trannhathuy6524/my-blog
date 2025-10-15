@@ -1,0 +1,4 @@
+# File: config/_default/languages.vi.toml
+
+[params.navigation_button]
+label = "Liên hệ"
