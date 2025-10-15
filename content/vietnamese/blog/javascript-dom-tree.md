@@ -9,7 +9,7 @@ author: "Một Lập Trình Viên Trẻ"
 tags: ["javascript", "dom", "frontend", "html", "sinh-vien-it"]
 ---
 
-## HTML tĩnh, JavaScript động
+## HTML tĩnh, JavaScript động123
 
 Bạn đã học HTML và CSS. Bạn có thể xây dựng một trang web trông rất đẹp, có bố cục hẳn hoi. Nhưng nó có một vấn đề: nó "chết". Nó là một tài liệu tĩnh. Bạn bấm vào một cái nút, không có gì xảy ra. Bạn điền vào một form, nó cứ trơ trơ ra đó.
 
