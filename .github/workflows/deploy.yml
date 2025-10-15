@@ -27,7 +27,7 @@ jobs:
           chmod +x node_modules/.bin/tailwindcss
 
       - name: 🔧 Setup Hugo
-        uses: actions/setup-hugo@v2
+        uses: peaceiris/actions-hugo@v2  # ✅ Đúng action name
         with:
           hugo-version: '0.151.0'
           extended: true
