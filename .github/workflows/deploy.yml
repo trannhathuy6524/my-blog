@@ -59,6 +59,7 @@ jobs:
           publish_branch: main
           publish_dir: ./public
           force_orphan: true
+          cname: trannhathuy6524.github.io
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: '🚀 Deploy from ${{ github.repository }}@${{ github.sha }}'
