@@ -16,10 +16,21 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: |
+          npm install
+          npm install -g tailwindcss
+
       - name: 🔧 Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.151.0'  # 👈 Match your local version
+          hugo-version: '0.151.0'
           extended: true
 
       - name: 🔨 Build site
