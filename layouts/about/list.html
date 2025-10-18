@@ -29,7 +29,7 @@
       <div class="about-content">
         <h2 class="section-title">🎯 Về mình</h2>
         <div class="about-text">
-          <p>Mình là <strong>Trần Nhật Huy</strong> – sinh viên <strong>Công nghệ Thông tin</strong> năm cuối tại Đại học ABC. Mình có niềm đam mê lớn với việc xây dựng những ứng dụng web hiện đại và trải nghiệm người dùng tuyệt vời.</p>
+          <p>Mình là <strong>Trần Nhật Huy</strong> – sinh viên <strong>Công nghệ Thông tin</strong> năm cuối tại Đại học HUTECH. Mình có niềm đam mê lớn với việc xây dựng những ứng dụng web hiện đại và trải nghiệm người dùng tuyệt vời.</p>
         </div>
         <div class="about-highlights">
           <div class="highlight-item">
@@ -146,7 +146,7 @@
         <div class="hobby-projects">
           <div class="project-item">
             <h4>🕹️ Platformer Game</h4>
-            <p>Game nhảy cót 2D với Unity</p>
+            <p>Game 2D với Unity</p>
           </div>
           <div class="project-item">
             <h4>🏃 Endless Runner</h4>
@@ -245,10 +245,12 @@
   z-index: 1;
 }
 
-/* Hero Section */
+/* Hero Section - Sử dụng theme colors */
 .hero-section {
-  background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
-  color: white;
+  background: linear-gradient(135deg, 
+    rgba(99, 102, 241, 0.1) 0%, 
+    rgba(99, 102, 241, 0.05) 50%, 
+    #ffffff 100%) !important;
 }
 
 .hero-content {
@@ -266,8 +268,8 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 4px solid #61dafb;
-  box-shadow: 0 0 30px rgba(97, 218, 251, 0.3);
+  @apply border-4 border-primary;
+  box-shadow: 0 0 30px rgb(var(--color-primary) / 0.3);
   animation: float 3s ease-in-out infinite;
 }
 
@@ -275,14 +277,15 @@
   font-size: 3.5rem;
   font-weight: bold;
   margin: 0;
-  background: linear-gradient(45deg, #61dafb, #4ecdc4);
+  @apply text-primary;
+  background: linear-gradient(45deg, rgb(var(--color-primary)), rgb(var(--color-primary) / 0.8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .hero-description {
   font-size: 1.5rem;
-  color: #e0e0e0;
+  @apply text-text dark:text-darkmode-text;
   max-width: 600px;
   line-height: 1.6;
 }
@@ -305,7 +308,7 @@
 .scroll-arrow {
   width: 2px;
   height: 30px;
-  background: white;
+  @apply bg-primary;
   position: relative;
   animation: scrollBounce 2s infinite;
 }
@@ -317,21 +320,21 @@
   left: -3px;
   width: 8px;
   height: 8px;
-  border-right: 2px solid white;
-  border-bottom: 2px solid white;
+  border-right: 2px solid rgb(var(--color-primary));
+  border-bottom: 2px solid rgb(var(--color-primary));
   transform: rotate(45deg);
 }
 
 /* About Section */
 .about-section {
-  background: #1a1a1a;
-  color: white;
+  @apply bg-light dark:bg-darkmode-light;
+  @apply text-text-dark dark:text-darkmode-text-dark;
 }
 
 .section-title {
   font-size: 3rem;
   margin-bottom: 3rem;
-  color: #61dafb;
+  @apply text-primary;
 }
 
 .about-text {
@@ -341,6 +344,7 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  @apply text-text dark:text-darkmode-text;
 }
 
 .about-highlights {
@@ -351,16 +355,16 @@
 }
 
 .highlight-item {
-  background: rgba(255, 255, 255, 0.05);
+  @apply bg-body dark:bg-darkmode-body;
+  @apply border border-border dark:border-darkmode-border;
   padding: 2rem;
   border-radius: 15px;
-  border: 1px solid rgba(97, 218, 251, 0.2);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 .highlight-item:hover {
   transform: translateY(-5px);
-  border-color: #61dafb;
+  @apply border-primary;
 }
 
 .highlight-icon {
@@ -368,11 +372,21 @@
   margin-bottom: 1rem;
 }
 
+.highlight-item h4 {
+  @apply text-text-dark dark:text-darkmode-text-dark;
+  margin-bottom: 0.5rem;
+}
+
+.highlight-item p {
+  @apply text-text dark:text-darkmode-text;
+}
+
 /* Skills Section */
 .skills-section {
-  background: #0f0f23;
-  color: white;
+  @apply bg-body dark:bg-darkmode-body;
+  @apply text-text-dark dark:text-darkmode-text-dark;
 }
+
 
 .skills-grid {
   display: grid;
@@ -382,17 +396,17 @@
 }
 
 .skill-category {
-  background: rgba(255, 255, 255, 0.05);
+  @apply bg-light dark:bg-darkmode-light;
+  @apply border border-border dark:border-darkmode-border;
   padding: 2.5rem;
   border-radius: 20px;
-  border: 1px solid rgba(97, 218, 251, 0.2);
   transition: all 0.3s ease;
 }
 
 .skill-category:hover {
   transform: translateY(-10px);
-  border-color: #61dafb;
-  box-shadow: 0 20px 40px rgba(97, 218, 251, 0.1);
+  @apply border-primary;
+  box-shadow: 0 20px 40px rgb(var(--color-primary) / 0.1);
 }
 
 .skill-icon {
@@ -401,7 +415,7 @@
 }
 
 .skill-category h3 {
-  color: #61dafb;
+  @apply text-primary;
   margin-bottom: 1.5rem;
   font-size: 1.4rem;
 }
@@ -413,8 +427,8 @@
 
 .skill-category li {
   padding: 0.5rem 0;
-  color: #ccc;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  @apply text-text dark:text-darkmode-text;
+  @apply border-b border-border dark:border-darkmode-border;
 }
 
 .skill-category li:last-child {
@@ -423,8 +437,8 @@
 
 /* Current Activities Section */
 .current-section {
-  background: #1a1a2e;
-  color: white;
+  @apply bg-light dark:bg-darkmode-light;
+  @apply text-text-dark dark:text-darkmode-text-dark;
 }
 
 .current-activities {
@@ -435,10 +449,10 @@
 }
 
 .activity-item {
-  background: rgba(255, 255, 255, 0.05);
+  @apply bg-body dark:bg-darkmode-body;
+  @apply border-l-4 border-primary;
   padding: 2rem;
   border-radius: 15px;
-  border-left: 4px solid #4ecdc4;
   transition: transform 0.3s ease;
 }
 
@@ -451,10 +465,19 @@
   margin-bottom: 1rem;
 }
 
+.activity-item h4 {
+  @apply text-text-dark dark:text-darkmode-text-dark;
+  margin-bottom: 0.5rem;
+}
+
+.activity-item p {
+  @apply text-text dark:text-darkmode-text;
+}
+
 /* Hobbies Section */
 .hobbies-section {
-  background: #16213e;
-  color: white;
+  @apply bg-body dark:bg-darkmode-body;
+  @apply text-text-dark dark:text-darkmode-text-dark;
 }
 
 .hobbies-content {
@@ -475,9 +498,14 @@
 }
 
 .hobby-main h3 {
-  color: #61dafb;
+  @apply text-primary;
   font-size: 2rem;
   margin-bottom: 1.5rem;
+}
+
+.hobby-main p {
+  @apply text-text dark:text-darkmode-text;
+  line-height: 1.6;
 }
 
 .hobby-projects {
@@ -487,16 +515,25 @@
 }
 
 .project-item {
-  background: rgba(255, 255, 255, 0.05);
+  @apply bg-light dark:bg-darkmode-light;
+  @apply border-l-4 border-primary;
   padding: 1.5rem;
   border-radius: 10px;
-  border-left: 4px solid #ff6b6b;
+}
+
+.project-item h4 {
+  @apply text-text-dark dark:text-darkmode-text-dark;
+  margin-bottom: 0.5rem;
+}
+
+.project-item p {
+  @apply text-text dark:text-darkmode-text;
 }
 
 /* Goals Section */
 .goals-section {
-  background: #0f0f23;
-  color: white;
+  @apply bg-light dark:bg-darkmode-light;
+  @apply text-text-dark dark:text-darkmode-text-dark;
 }
 
 .goals-timeline {
@@ -507,7 +544,8 @@
 }
 
 .goal-item {
-  background: rgba(255, 255, 255, 0.05);
+  @apply bg-body dark:bg-darkmode-body;
+  @apply border border-border dark:border-darkmode-border;
   padding: 2.5rem;
   border-radius: 20px;
   text-align: left;
@@ -515,16 +553,15 @@
 }
 
 .goal-item.short-term {
-  border-top: 4px solid #28a745;
+  @apply border-t-4 border-t-green-500;
 }
 
 .goal-item.long-term {
-  border-top: 4px solid #007bff;
+  @apply border-t-4 border-t-blue-500;
 }
 
 .goal-period {
-  background: #61dafb;
-  color: #000;
+  @apply bg-primary text-body;
   padding: 0.5rem 1rem;
   border-radius: 20px;
   font-weight: bold;
@@ -533,7 +570,12 @@
 }
 
 .goal-content h3 {
-  color: #61dafb;
+  @apply text-primary;
+  margin-bottom: 1rem;
+}
+
+.goal-content p {
+  @apply text-text dark:text-darkmode-text;
   margin-bottom: 1rem;
 }
 
@@ -544,7 +586,7 @@
 
 .goal-content li {
   padding: 0.5rem 0;
-  color: #ccc;
+  @apply text-text dark:text-darkmode-text;
   position: relative;
   padding-left: 1.5rem;
 }
@@ -558,8 +600,12 @@
 
 /* Quote Section */
 .quote-section {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%);
-  color: white;
+  @apply bg-gradient-to-br from-primary/10 via-primary/5 to-body;
+  @apply text-text-dark dark:text-darkmode-text-dark;
+  background: linear-gradient(135deg, 
+    rgb(var(--color-primary) / 0.1) 0%, 
+    rgb(var(--color-primary) / 0.05) 50%, 
+    rgb(var(--color-body)) 100%);
 }
 
 .quote-container {
@@ -577,7 +623,7 @@
   font-size: 2.5rem;
   font-style: italic;
   margin-bottom: 2rem;
-  color: #61dafb;
+  @apply text-primary;
   line-height: 1.4;
 }
 
@@ -585,39 +631,31 @@
   font-size: 1.2rem;
   line-height: 1.8;
   margin-bottom: 3rem;
-  color: #e0e0e0;
+  @apply text-text dark:text-darkmode-text;
 }
 
-/* Buttons */
+/* Buttons - Sử dụng theme buttons */
 .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 8px;
+  @apply inline-block px-6 py-3 rounded-lg font-semibold transition-all duration-300;
   text-decoration: none;
-  font-weight: 600;
-  transition: all 0.3s ease;
   border: 2px solid transparent;
 }
 
 .btn-primary {
-  background: #61dafb;
-  color: #000;
+  @apply bg-primary text-body hover:bg-primary/90;
+  transform: translateY(0);
 }
 
 .btn-primary:hover {
-  background: #4ecdc4;
   transform: translateY(-2px);
 }
 
 .btn-outline {
-  border-color: #61dafb;
-  color: #61dafb;
-  background: transparent;
+  @apply border-2 border-primary text-primary bg-transparent;
+  @apply hover:bg-primary hover:text-body;
 }
 
 .btn-outline:hover {
-  background: #61dafb;
-  color: #000;
   transform: translateY(-2px);
 }
 
@@ -681,6 +719,7 @@
     height: 150px;
   }
 }
+
 </style>
 
 <script>

@@ -1,53 +1,117 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog của tôi</title><link>https://trannhathuy6524.github.io/</link><description>Recent content on Blog của tôi</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Sat, 11 Oct 2025 16:15:00 +0700</lastBuildDate><atom:link href="https://trannhathuy6524.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>JSON là gì? 'Ngôn ngữ giao tiếp' chung của mọi Lập trình viên</title><link>https://trannhathuy6524.github.io/blog/json-data-format/</link><pubDate>Sat, 11 Oct 2025 16:15:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/json-data-format/</guid><description>&lt;h2 id="tại-sao-chúng-ta-cần-một-ngôn-ngữ-chung"&gt;Tại sao chúng ta cần một &amp;rsquo;ngôn ngữ&amp;rsquo; chung?&lt;/h2&gt;
-&lt;p&gt;Hãy tưởng tượng một kịch bản:&lt;/p&gt;</description></item><item><title>JavaScript và DOM: 'Phù phép' cho trang web HTML của bạn</title><link>https://trannhathuy6524.github.io/blog/javascript-dom-tree/</link><pubDate>Sat, 11 Oct 2025 14:05:27 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/javascript-dom-tree/</guid><description>&lt;h2 id="html-tĩnh-javascript-động"&gt;HTML tĩnh, JavaScript động&lt;/h2&gt;
-&lt;p&gt;Bạn đã học HTML và CSS. Bạn có thể xây dựng một trang web trông rất đẹp, có bố cục hẳn hoi. Nhưng nó có một vấn đề: nó &amp;ldquo;chết&amp;rdquo;. Nó là một tài liệu tĩnh. Bạn bấm vào một cái nút, không có gì xảy ra. Bạn điền vào một form, nó cứ trơ trơ ra đó.&lt;/p&gt;</description></item><item><title>OOP không khó: Giải mã 4 'trụ cột' của Lập trình Hướng đối tượng trong Java</title><link>https://trannhathuy6524.github.io/blog/huong-doi-tuong/</link><pubDate>Sat, 11 Oct 2025 13:45:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/huong-doi-tuong/</guid><description>&lt;h2 id="oop-không-chỉ-là-code-có-class"&gt;OOP: Không chỉ là &amp;ldquo;code có class&amp;rdquo;&lt;/h2&gt;
-&lt;p&gt;Khi mới học Java, chúng ta thường được dạy về &lt;code&gt;class&lt;/code&gt; và &lt;code&gt;object&lt;/code&gt;. Chúng ta học cách tạo ra một đối tượng &lt;code&gt;SinhVien&lt;/code&gt; từ một lớp &lt;code&gt;SinhVien&lt;/code&gt;. Nhưng Lập trình Hướng đối tượng (OOP) không chỉ dừng lại ở đó. Sức mạnh thật sự của nó nằm ở 4 &amp;ldquo;trụ cột&amp;rdquo; hay 4 tính chất cốt lõi.&lt;/p&gt;</description></item><item><title>Tại sao code JS của tôi chạy không đúng thứ tự? Hiểu về Bất đồng bộ, Promise và async/await</title><link>https://trannhathuy6524.github.io/blog/javascript-async-await-promise/</link><pubDate>Sat, 11 Oct 2025 13:07:24 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/javascript-async-await-promise/</guid><description>&lt;h2 id="vấn-đề-đợi-đã-sao-lại-là-undefined"&gt;Vấn đề: &amp;ldquo;Đợi đã, sao lại là &lt;code&gt;undefined&lt;/code&gt;?&amp;rdquo;&lt;/h2&gt;
-&lt;p&gt;Chắc chắn bạn đã từng gặp trường hợp này: bạn dùng &lt;code&gt;fetch&lt;/code&gt; để lấy dữ liệu từ một API, rồi &lt;code&gt;console.log&lt;/code&gt; kết quả ngay dòng bên dưới, và BÙM&amp;hellip; kết quả là &lt;code&gt;undefined&lt;/code&gt; hoặc một thứ khó hiểu như &lt;code&gt;Promise {&amp;lt;pending&amp;gt;}&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Git cho người mới: Đừng code 'chay' nữa, hãy dùng 'cỗ máy thời gian' này!</title><link>https://trannhathuy6524.github.io/blog/git-github-for-beginners/</link><pubDate>Sat, 11 Oct 2025 12:37:53 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/git-github-for-beginners/</guid><description>&lt;h2 id="file-của-bạn-có-bao-giờ-trông-như-thế-này-không"&gt;File của bạn có bao giờ trông như thế này không?&lt;/h2&gt;
-&lt;p&gt;Mình cá là có:&lt;/p&gt;</description></item><item><title>SOLID cho sinh viên: 5 nguyên tắc vàng để code Java 'sạch' hơn</title><link>https://trannhathuy6524.github.io/blog/solid/</link><pubDate>Sat, 11 Oct 2025 12:00:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/solid/</guid><description>&lt;h2 id="code-chạy-được-nhưng-đã-tốt-chưa"&gt;Code chạy được, nhưng đã &amp;ldquo;tốt&amp;rdquo; chưa?&lt;/h2&gt;
-&lt;p&gt;Chào mọi người, hồi năm hai, mình từng rất tự hào khi code xong một chương trình quản lý sinh viên bằng Java. Nó chạy được, thêm, xóa, sửa ngon lành. Nhưng khi thầy giáo yêu cầu thêm một chức năng mới, ví dụ như &amp;ldquo;xuất danh sách ra file PDF&amp;rdquo; thay vì chỉ là file text, mình đã phải sửa lại rất nhiều file, và lỡ tay làm hỏng vài chức năng cũ. 😫&lt;/p&gt;</description></item><item><title>Làm chủ Array Methods: map, filter, reduce trong 5 phút</title><link>https://trannhathuy6524.github.io/blog/lam-chu-array-methods/</link><pubDate>Fri, 10 Oct 2025 23:35:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/lam-chu-array-methods/</guid><description>&lt;h2 id="giới-thiệu"&gt;Giới thiệu&lt;/h2&gt;
-&lt;p&gt;Khi mới học JavaScript, mình cũng như nhiều bạn khác, hễ cứ đụng đến mảng (array) là lại dùng vòng lặp &lt;code&gt;for&lt;/code&gt;. Muốn nhân đôi các số trong mảng? Dùng . Muốn lọc ra các số chẵn? Lại dùng &lt;code&gt;for&lt;/code&gt;. Code thì chạy được, nhưng trông rất dài và đôi khi khó đọc.&lt;/p&gt;</description></item><item><title>Tìm hiểu về REST API</title><link>https://trannhathuy6524.github.io/blog/bai-viet-dau-tien/</link><pubDate>Sat, 04 Oct 2025 17:39:26 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/bai-viet-dau-tien/</guid><description>&lt;h2 id="rest-api-là-gì"&gt;REST API là gì?&lt;/h2&gt;
-&lt;div style="padding-left: 40px;"&gt;
-&lt;p&gt;&lt;strong style="color: white;"&gt;API&lt;/strong&gt; (Application Programming Interface) là cầu nối để các ứng dụng giao tiếp với nhau.&lt;/p&gt;</description></item><item><title>Elements</title><link>https://trannhathuy6524.github.io/pages/elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/pages/elements/</guid><description>&lt;details class="table-of-content "&gt;
- &lt;summary&gt;
- 
- Mục lục
- 
- &lt;/summary&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ol&gt;
- &lt;li&gt;&lt;a href="#heading-2"&gt;Heading 2&lt;/a&gt;
- &lt;ol&gt;
- &lt;li&gt;&lt;a href="#heading-3"&gt;Heading 3&lt;/a&gt;
- &lt;ol&gt;
- &lt;li&gt;&lt;a href="#heading-4"&gt;Heading 4&lt;/a&gt;
- &lt;ol&gt;
- &lt;li&gt;&lt;a href="#heading-5"&gt;Heading 5&lt;/a&gt;&lt;/li&gt;
- &lt;/ol&gt;
- &lt;/li&gt;
- &lt;/ol&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#emphasis"&gt;Emphasis&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#button"&gt;Button&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#link"&gt;Link&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#paragraph"&gt;Paragraph&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#ordered-list"&gt;Ordered List&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#unordered-list"&gt;Unordered List&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#notice"&gt;Notice&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#tab"&gt;Tab&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#accordions"&gt;Accordions&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#code-and-syntax-highlighting"&gt;Code and Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#blockquote"&gt;Blockquote&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#tables"&gt;Tables&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#image"&gt;Image&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#gallery"&gt;Gallery&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#slider"&gt;Slider&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#youtube-video"&gt;Youtube video&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#custom-video"&gt;Custom video&lt;/a&gt;&lt;/li&gt;
- &lt;/ol&gt;
- &lt;/li&gt;
- &lt;/ol&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
-
-&lt;p&gt;Here is an example of headings. You can use this heading by the following markdown rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;</description></item><item><title>John Doe</title><link>https://trannhathuy6524.github.io/authors/john-doe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/authors/john-doe/</guid><description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description></item><item><title>Privacy</title><link>https://trannhathuy6524.github.io/pages/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/pages/privacy-policy/</guid><description>&lt;h4 id="responsibility-of-contributors"&gt;Responsibility of Contributors&lt;/h4&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description></item><item><title>Ready to build your next project with Hugo?</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Sam Wilson</title><link>https://trannhathuy6524.github.io/authors/sam-wilson/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/authors/sam-wilson/</guid><description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description></item><item><title>What Users Are Saying About Hugoplate</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>William Jacob</title><link>https://trannhathuy6524.github.io/authors/william-jacob/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/authors/william-jacob/</guid><description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog của tôi</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blog của tôi</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Sat, 11 Oct 2025 17:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Đừng sợ &#39;chữ đỏ&#39;: Làm chủ Exception Handling (try-catch) trong Java</title>
+      <link>http://localhost:1313/blog/java-exception-handling/</link>
+      <pubDate>Sat, 11 Oct 2025 17:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/java-exception-handling/</guid>
+      <description>&lt;h2 id=&#34;bức-tường-chữ-đỏ-đáng-sợ&#34;&gt;Bức tường &amp;ldquo;chữ đỏ&amp;rdquo; đáng sợ&lt;/h2&gt;&#xA;&lt;p&gt;Chắc chắn bạn đã từng trải qua cảm giác này: bạn code hì hục, bấm nút Run, và&amp;hellip; BÙM! 💥 Toàn bộ cửa sổ console hiện lên một bức tường &amp;ldquo;chữ đỏ&amp;rdquo; dài ngoằng, chương trình của bạn &amp;ldquo;sập&amp;rdquo; ngay lập tức.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JSON là gì? &#39;Ngôn ngữ giao tiếp&#39; chung của mọi Lập trình viên</title>
+      <link>http://localhost:1313/blog/json-data-format/</link>
+      <pubDate>Sat, 11 Oct 2025 16:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/json-data-format/</guid>
+      <description>&lt;h2 id=&#34;tại-sao-chúng-ta-cần-một-ngôn-ngữ-chung&#34;&gt;Tại sao chúng ta cần một &amp;rsquo;ngôn ngữ&amp;rsquo; chung?&lt;/h2&gt;&#xA;&lt;p&gt;Hãy tưởng tượng một kịch bản:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript và DOM: &#39;Phù phép&#39; cho trang web HTML của bạn</title>
+      <link>http://localhost:1313/blog/javascript-dom-tree/</link>
+      <pubDate>Sat, 11 Oct 2025 14:05:27 +0700</pubDate>
+      <guid>http://localhost:1313/blog/javascript-dom-tree/</guid>
+      <description>&lt;h2 id=&#34;html-tĩnh-javascript-động&#34;&gt;HTML tĩnh, JavaScript động&lt;/h2&gt;&#xA;&lt;p&gt;123Bạn đã học HTML và CSS. Bạn có thể xây dựng một trang web trông rất đẹp, có bố cục hẳn hoi. Nhưng nó có một vấn đề: nó &amp;ldquo;chết&amp;rdquo;. Nó là một tài liệu tĩnh. Bạn bấm vào một cái nút, không có gì xảy ra. Bạn điền vào một form, nó cứ trơ trơ ra đó.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OOP không khó: Giải mã 4 &#39;trụ cột&#39; của Lập trình Hướng đối tượng trong Java</title>
+      <link>http://localhost:1313/blog/huong-doi-tuong/</link>
+      <pubDate>Sat, 11 Oct 2025 13:45:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/huong-doi-tuong/</guid>
+      <description>&lt;h2 id=&#34;oop-không-chỉ-là-code-có-class&#34;&gt;OOP: Không chỉ là &amp;ldquo;code có class&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Khi mới học Java, chúng ta thường được dạy về &lt;code&gt;class&lt;/code&gt; và &lt;code&gt;object&lt;/code&gt;. Chúng ta học cách tạo ra một đối tượng &lt;code&gt;SinhVien&lt;/code&gt; từ một lớp &lt;code&gt;SinhVien&lt;/code&gt;. Nhưng Lập trình Hướng đối tượng (OOP) không chỉ dừng lại ở đó. Sức mạnh thật sự của nó nằm ở 4 &amp;ldquo;trụ cột&amp;rdquo; hay 4 tính chất cốt lõi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tại sao code JS của tôi chạy không đúng thứ tự? Hiểu về Bất đồng bộ, Promise và async/await</title>
+      <link>http://localhost:1313/blog/javascript-async-await-promise/</link>
+      <pubDate>Sat, 11 Oct 2025 13:07:24 +0700</pubDate>
+      <guid>http://localhost:1313/blog/javascript-async-await-promise/</guid>
+      <description>&lt;h2 id=&#34;vấn-đề-đợi-đã-sao-lại-là-undefined&#34;&gt;Vấn đề: &amp;ldquo;Đợi đã, sao lại là &lt;code&gt;undefined&lt;/code&gt;?&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Chắc chắn bạn đã từng gặp trường hợp này: bạn dùng &lt;code&gt;fetch&lt;/code&gt; để lấy dữ liệu từ một API, rồi &lt;code&gt;console.log&lt;/code&gt; kết quả ngay dòng bên dưới, và BÙM&amp;hellip; kết quả là &lt;code&gt;undefined&lt;/code&gt; hoặc một thứ khó hiểu như &lt;code&gt;Promise {&amp;lt;pending&amp;gt;}&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git cho người mới: Đừng code &#39;chay&#39; nữa, hãy dùng &#39;cỗ máy thời gian&#39; này!</title>
+      <link>http://localhost:1313/blog/git-github-for-beginners/</link>
+      <pubDate>Sat, 11 Oct 2025 12:37:53 +0700</pubDate>
+      <guid>http://localhost:1313/blog/git-github-for-beginners/</guid>
+      <description>&lt;h2 id=&#34;file-của-bạn-có-bao-giờ-trông-như-thế-này-không&#34;&gt;File của bạn có bao giờ trông như thế này không?&lt;/h2&gt;&#xA;&lt;p&gt;Mình cá là có:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SOLID cho sinh viên: 5 nguyên tắc vàng để code Java &#39;sạch&#39; hơn</title>
+      <link>http://localhost:1313/blog/solid/</link>
+      <pubDate>Sat, 11 Oct 2025 12:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/solid/</guid>
+      <description>&lt;h2 id=&#34;code-chạy-được-nhưng-đã-tốt-chưa&#34;&gt;Code chạy được, nhưng đã &amp;ldquo;tốt&amp;rdquo; chưa?&lt;/h2&gt;&#xA;&lt;p&gt;Chào mọi người, hồi năm hai, mình từng rất tự hào khi code xong một chương trình quản lý sinh viên bằng Java. Nó chạy được, thêm, xóa, sửa ngon lành. Nhưng khi thầy giáo yêu cầu thêm một chức năng mới, ví dụ như &amp;ldquo;xuất danh sách ra file PDF&amp;rdquo; thay vì chỉ là file text, mình đã phải sửa lại rất nhiều file, và lỡ tay làm hỏng vài chức năng cũ. 😫&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Làm chủ Array Methods: map, filter, reduce trong 5 phút</title>
+      <link>http://localhost:1313/blog/lam-chu-array-methods/</link>
+      <pubDate>Fri, 10 Oct 2025 23:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/lam-chu-array-methods/</guid>
+      <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Khi mới học JavaScript, mình cũng như nhiều bạn khác, hễ cứ đụng đến mảng (array) là lại dùng vòng lặp &lt;code&gt;for&lt;/code&gt;. Muốn nhân đôi các số trong mảng? Dùng . Muốn lọc ra các số chẵn? Lại dùng &lt;code&gt;for&lt;/code&gt;. Code thì chạy được, nhưng trông rất dài và đôi khi khó đọc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tìm hiểu về REST API</title>
+      <link>http://localhost:1313/blog/bai-viet-dau-tien/</link>
+      <pubDate>Sat, 04 Oct 2025 17:39:26 +0700</pubDate>
+      <guid>http://localhost:1313/blog/bai-viet-dau-tien/</guid>
+      <description>&lt;h2 id=&#34;rest-api-là-gì&#34;&gt;REST API là gì?&lt;/h2&gt;&#xA;&lt;div style=&#34;padding-left: 40px;&#34;&gt;&#xA;&lt;p&gt;&lt;strong style=&#34;color: white;&#34;&gt;API&lt;/strong&gt; (Application Programming Interface) là cầu nối để các ứng dụng giao tiếp với nhau.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>John Doe</title>
+      <link>http://localhost:1313/authors/john-doe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/john-doe/</guid>
+      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/pages/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pages/privacy-policy/</guid>
+      <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ready to build your next project with Hugo?</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sam Wilson</title>
+      <link>http://localhost:1313/authors/sam-wilson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/sam-wilson/</guid>
+      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What Users Are Saying About Hugoplate</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>William Jacob</title>
+      <link>http://localhost:1313/authors/william-jacob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/authors/william-jacob/</guid>
+      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

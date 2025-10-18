@@ -1,45 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Trần Nhật Huy - Portfolio</title><link>https://trannhathuy6524.github.io/en/</link><description>Recent content on Trần Nhật Huy - Portfolio</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 04 Oct 2025 17:39:26 +0700</lastBuildDate><atom:link href="https://trannhathuy6524.github.io/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Bai Viet Dau Tien</title><link>https://trannhathuy6524.github.io/en/blog/bai-viet-dau-tien/</link><pubDate>Sat, 04 Oct 2025 17:39:26 +0700</pubDate><guid>https://trannhathuy6524.github.io/en/blog/bai-viet-dau-tien/</guid><description>&lt;h2 id="rest-api-là-gì"&gt;REST API là gì?&lt;/h2&gt;
-&lt;p&gt;API (Application Programming Interface) là cầu nối để các ứng dụng giao tiếp với nhau.&lt;/p&gt;</description></item><item><title>How to build an Application with modern Technology</title><link>https://trannhathuy6524.github.io/en/blog/post-1/</link><pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/en/blog/post-1/</guid><description>&lt;p&gt;huy jdhagfdauNemo vel ad consectetur namuS rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description></item><item><title>How to build an Application with modern Technology</title><link>https://trannhathuy6524.github.io/en/blog/post-2/</link><pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/en/blog/post-2/</guid><description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description></item><item><title>How to build an Application with modern Technology</title><link>https://trannhathuy6524.github.io/en/blog/post-3/</link><pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/en/blog/post-3/</guid><description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description></item><item><title>How to build an Application with modern Technology</title><link>https://trannhathuy6524.github.io/en/blog/post-4/</link><pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/en/blog/post-4/</guid><description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description></item><item><title>Elements</title><link>https://trannhathuy6524.github.io/en/pages/elements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/en/pages/elements/</guid><description>&lt;details class="table-of-content "&gt;
- &lt;summary&gt;
- 
- Table of Contents
- 
- &lt;/summary&gt;
- &lt;nav id="TableOfContents"&gt;
- &lt;ol&gt;
- &lt;li&gt;&lt;a href="#heading-2"&gt;Heading 2&lt;/a&gt;
- &lt;ol&gt;
- &lt;li&gt;&lt;a href="#heading-3"&gt;Heading 3&lt;/a&gt;
- &lt;ol&gt;
- &lt;li&gt;&lt;a href="#heading-4"&gt;Heading 4&lt;/a&gt;
- &lt;ol&gt;
- &lt;li&gt;&lt;a href="#heading-5"&gt;Heading 5&lt;/a&gt;&lt;/li&gt;
- &lt;/ol&gt;
- &lt;/li&gt;
- &lt;/ol&gt;
- &lt;/li&gt;
- &lt;li&gt;&lt;a href="#emphasis"&gt;Emphasis&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#button"&gt;Button&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#link"&gt;Link&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#paragraph"&gt;Paragraph&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#ordered-list"&gt;Ordered List&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#unordered-list"&gt;Unordered List&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#notice"&gt;Notice&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#tab"&gt;Tab&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#accordions"&gt;Accordions&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#code-and-syntax-highlighting"&gt;Code and Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#blockquote"&gt;Blockquote&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#tables"&gt;Tables&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#image"&gt;Image&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#gallery"&gt;Gallery&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#slider"&gt;Slider&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#youtube-video"&gt;Youtube video&lt;/a&gt;&lt;/li&gt;
- &lt;li&gt;&lt;a href="#custom-video"&gt;Custom video&lt;/a&gt;&lt;/li&gt;
- &lt;/ol&gt;
- &lt;/li&gt;
- &lt;/ol&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
-
-&lt;p&gt;Here is an example of headings. You can use this heading by the following markdown rules. For example: use &lt;code&gt;#&lt;/code&gt; for heading 1 and use &lt;code&gt;######&lt;/code&gt; for heading 6.&lt;/p&gt;</description></item><item><title>John Doe</title><link>https://trannhathuy6524.github.io/en/authors/john-doe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/en/authors/john-doe/</guid><description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description></item><item><title>Privacy</title><link>https://trannhathuy6524.github.io/en/pages/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/en/pages/privacy-policy/</guid><description>&lt;h4 id="responsibility-of-contributors"&gt;Responsibility of Contributors&lt;/h4&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description></item><item><title>Ready to build your next project with Hugo?</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>Sam Wilson</title><link>https://trannhathuy6524.github.io/en/authors/sam-wilson/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/en/authors/sam-wilson/</guid><description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description></item><item><title>What Users Are Saying About Hugoplate</title><link/><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid/><description/></item><item><title>William Jacob</title><link>https://trannhathuy6524.github.io/en/authors/william-jacob/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trannhathuy6524.github.io/en/authors/william-jacob/</guid><description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trần Nhật Huy - Portfolio</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content on Trần Nhật Huy - Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Oct 2025 17:39:26 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bai Viet Dau Tien</title>
+      <link>http://localhost:1313/en/blog/bai-viet-dau-tien/</link>
+      <pubDate>Sat, 04 Oct 2025 17:39:26 +0700</pubDate>
+      <guid>http://localhost:1313/en/blog/bai-viet-dau-tien/</guid>
+      <description>&lt;h2 id=&#34;rest-api-là-gì&#34;&gt;REST API là gì?&lt;/h2&gt;&#xA;&lt;p&gt;API (Application Programming Interface) là cầu nối để các ứng dụng giao tiếp với nhau.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>http://localhost:1313/en/blog/post-1/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/post-1/</guid>
+      <description>&lt;p&gt;huy jdhagfdauNemo vel ad consectetur namuS rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>http://localhost:1313/en/blog/post-2/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/post-2/</guid>
+      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>http://localhost:1313/en/blog/post-3/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/post-3/</guid>
+      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to build an Application with modern Technology</title>
+      <link>http://localhost:1313/en/blog/post-4/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/blog/post-4/</guid>
+      <description>&lt;p&gt;Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>John Doe</title>
+      <link>http://localhost:1313/en/authors/john-doe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/authors/john-doe/</guid>
+      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/en/pages/privacy-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/pages/privacy-policy/</guid>
+      <description>&lt;h4 id=&#34;responsibility-of-contributors&#34;&gt;Responsibility of Contributors&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus, donec nunc eros, ullamcorper id feugiat quisque aliquam sagittis. Sem turpis sed viverra massa gravida pharetra. Non dui dolor potenti eu dignissim fusce. Ultrices amet, in curabitur a arcu a lectus morbi id. Iaculis erat sagittis in tortor cursus. Molestie urna eu tortor, erat scelerisque eget. Nunc hendrerit sed interdum lacus. Lorem quis viverra sed&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ready to build your next project with Hugo?</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sam Wilson</title>
+      <link>http://localhost:1313/en/authors/sam-wilson/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/authors/sam-wilson/</guid>
+      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What Users Are Saying About Hugoplate</title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    <item>
+      <title>William Jacob</title>
+      <link>http://localhost:1313/en/authors/william-jacob/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/authors/william-jacob/</guid>
+      <description>&lt;p&gt;lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostr navigation et dolore magna aliqua.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,7 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lập Trình on Blog của tôi</title><link>https://trannhathuy6524.github.io/categories/l%E1%BA%ADp-tr%C3%ACnh/</link><description>Recent content in Lập Trình on Blog của tôi</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Sat, 11 Oct 2025 16:15:00 +0700</lastBuildDate><atom:link href="https://trannhathuy6524.github.io/categories/l%E1%BA%ADp-tr%C3%ACnh/index.xml" rel="self" type="application/rss+xml"/><item><title>JSON là gì? 'Ngôn ngữ giao tiếp' chung của mọi Lập trình viên</title><link>https://trannhathuy6524.github.io/blog/json-data-format/</link><pubDate>Sat, 11 Oct 2025 16:15:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/json-data-format/</guid><description>&lt;h2 id="tại-sao-chúng-ta-cần-một-ngôn-ngữ-chung"&gt;Tại sao chúng ta cần một &amp;rsquo;ngôn ngữ&amp;rsquo; chung?&lt;/h2&gt;
-&lt;p&gt;Hãy tưởng tượng một kịch bản:&lt;/p&gt;</description></item><item><title>OOP không khó: Giải mã 4 'trụ cột' của Lập trình Hướng đối tượng trong Java</title><link>https://trannhathuy6524.github.io/blog/huong-doi-tuong/</link><pubDate>Sat, 11 Oct 2025 13:45:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/huong-doi-tuong/</guid><description>&lt;h2 id="oop-không-chỉ-là-code-có-class"&gt;OOP: Không chỉ là &amp;ldquo;code có class&amp;rdquo;&lt;/h2&gt;
-&lt;p&gt;Khi mới học Java, chúng ta thường được dạy về &lt;code&gt;class&lt;/code&gt; và &lt;code&gt;object&lt;/code&gt;. Chúng ta học cách tạo ra một đối tượng &lt;code&gt;SinhVien&lt;/code&gt; từ một lớp &lt;code&gt;SinhVien&lt;/code&gt;. Nhưng Lập trình Hướng đối tượng (OOP) không chỉ dừng lại ở đó. Sức mạnh thật sự của nó nằm ở 4 &amp;ldquo;trụ cột&amp;rdquo; hay 4 tính chất cốt lõi.&lt;/p&gt;</description></item><item><title>Tại sao code JS của tôi chạy không đúng thứ tự? Hiểu về Bất đồng bộ, Promise và async/await</title><link>https://trannhathuy6524.github.io/blog/javascript-async-await-promise/</link><pubDate>Sat, 11 Oct 2025 13:07:24 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/javascript-async-await-promise/</guid><description>&lt;h2 id="vấn-đề-đợi-đã-sao-lại-là-undefined"&gt;Vấn đề: &amp;ldquo;Đợi đã, sao lại là &lt;code&gt;undefined&lt;/code&gt;?&amp;rdquo;&lt;/h2&gt;
-&lt;p&gt;Chắc chắn bạn đã từng gặp trường hợp này: bạn dùng &lt;code&gt;fetch&lt;/code&gt; để lấy dữ liệu từ một API, rồi &lt;code&gt;console.log&lt;/code&gt; kết quả ngay dòng bên dưới, và BÙM&amp;hellip; kết quả là &lt;code&gt;undefined&lt;/code&gt; hoặc một thứ khó hiểu như &lt;code&gt;Promise {&amp;lt;pending&amp;gt;}&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Git cho người mới: Đừng code 'chay' nữa, hãy dùng 'cỗ máy thời gian' này!</title><link>https://trannhathuy6524.github.io/blog/git-github-for-beginners/</link><pubDate>Sat, 11 Oct 2025 12:37:53 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/git-github-for-beginners/</guid><description>&lt;h2 id="file-của-bạn-có-bao-giờ-trông-như-thế-này-không"&gt;File của bạn có bao giờ trông như thế này không?&lt;/h2&gt;
-&lt;p&gt;Mình cá là có:&lt;/p&gt;</description></item><item><title>SOLID cho sinh viên: 5 nguyên tắc vàng để code Java 'sạch' hơn</title><link>https://trannhathuy6524.github.io/blog/solid/</link><pubDate>Sat, 11 Oct 2025 12:00:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/solid/</guid><description>&lt;h2 id="code-chạy-được-nhưng-đã-tốt-chưa"&gt;Code chạy được, nhưng đã &amp;ldquo;tốt&amp;rdquo; chưa?&lt;/h2&gt;
-&lt;p&gt;Chào mọi người, hồi năm hai, mình từng rất tự hào khi code xong một chương trình quản lý sinh viên bằng Java. Nó chạy được, thêm, xóa, sửa ngon lành. Nhưng khi thầy giáo yêu cầu thêm một chức năng mới, ví dụ như &amp;ldquo;xuất danh sách ra file PDF&amp;rdquo; thay vì chỉ là file text, mình đã phải sửa lại rất nhiều file, và lỡ tay làm hỏng vài chức năng cũ. 😫&lt;/p&gt;</description></item><item><title>Làm chủ Array Methods: map, filter, reduce trong 5 phút</title><link>https://trannhathuy6524.github.io/blog/lam-chu-array-methods/</link><pubDate>Fri, 10 Oct 2025 23:35:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/blog/lam-chu-array-methods/</guid><description>&lt;h2 id="giới-thiệu"&gt;Giới thiệu&lt;/h2&gt;
-&lt;p&gt;Khi mới học JavaScript, mình cũng như nhiều bạn khác, hễ cứ đụng đến mảng (array) là lại dùng vòng lặp &lt;code&gt;for&lt;/code&gt;. Muốn nhân đôi các số trong mảng? Dùng . Muốn lọc ra các số chẵn? Lại dùng &lt;code&gt;for&lt;/code&gt;. Code thì chạy được, nhưng trông rất dài và đôi khi khó đọc.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lập Trình on Blog của tôi</title>
+    <link>http://localhost:1313/categories/l%E1%BA%ADp-tr%C3%ACnh/</link>
+    <description>Recent content in Lập Trình on Blog của tôi</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Sat, 11 Oct 2025 16:15:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/l%E1%BA%ADp-tr%C3%ACnh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JSON là gì? &#39;Ngôn ngữ giao tiếp&#39; chung của mọi Lập trình viên</title>
+      <link>http://localhost:1313/blog/json-data-format/</link>
+      <pubDate>Sat, 11 Oct 2025 16:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/json-data-format/</guid>
+      <description>&lt;h2 id=&#34;tại-sao-chúng-ta-cần-một-ngôn-ngữ-chung&#34;&gt;Tại sao chúng ta cần một &amp;rsquo;ngôn ngữ&amp;rsquo; chung?&lt;/h2&gt;&#xA;&lt;p&gt;Hãy tưởng tượng một kịch bản:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OOP không khó: Giải mã 4 &#39;trụ cột&#39; của Lập trình Hướng đối tượng trong Java</title>
+      <link>http://localhost:1313/blog/huong-doi-tuong/</link>
+      <pubDate>Sat, 11 Oct 2025 13:45:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/huong-doi-tuong/</guid>
+      <description>&lt;h2 id=&#34;oop-không-chỉ-là-code-có-class&#34;&gt;OOP: Không chỉ là &amp;ldquo;code có class&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Khi mới học Java, chúng ta thường được dạy về &lt;code&gt;class&lt;/code&gt; và &lt;code&gt;object&lt;/code&gt;. Chúng ta học cách tạo ra một đối tượng &lt;code&gt;SinhVien&lt;/code&gt; từ một lớp &lt;code&gt;SinhVien&lt;/code&gt;. Nhưng Lập trình Hướng đối tượng (OOP) không chỉ dừng lại ở đó. Sức mạnh thật sự của nó nằm ở 4 &amp;ldquo;trụ cột&amp;rdquo; hay 4 tính chất cốt lõi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tại sao code JS của tôi chạy không đúng thứ tự? Hiểu về Bất đồng bộ, Promise và async/await</title>
+      <link>http://localhost:1313/blog/javascript-async-await-promise/</link>
+      <pubDate>Sat, 11 Oct 2025 13:07:24 +0700</pubDate>
+      <guid>http://localhost:1313/blog/javascript-async-await-promise/</guid>
+      <description>&lt;h2 id=&#34;vấn-đề-đợi-đã-sao-lại-là-undefined&#34;&gt;Vấn đề: &amp;ldquo;Đợi đã, sao lại là &lt;code&gt;undefined&lt;/code&gt;?&amp;rdquo;&lt;/h2&gt;&#xA;&lt;p&gt;Chắc chắn bạn đã từng gặp trường hợp này: bạn dùng &lt;code&gt;fetch&lt;/code&gt; để lấy dữ liệu từ một API, rồi &lt;code&gt;console.log&lt;/code&gt; kết quả ngay dòng bên dưới, và BÙM&amp;hellip; kết quả là &lt;code&gt;undefined&lt;/code&gt; hoặc một thứ khó hiểu như &lt;code&gt;Promise {&amp;lt;pending&amp;gt;}&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git cho người mới: Đừng code &#39;chay&#39; nữa, hãy dùng &#39;cỗ máy thời gian&#39; này!</title>
+      <link>http://localhost:1313/blog/git-github-for-beginners/</link>
+      <pubDate>Sat, 11 Oct 2025 12:37:53 +0700</pubDate>
+      <guid>http://localhost:1313/blog/git-github-for-beginners/</guid>
+      <description>&lt;h2 id=&#34;file-của-bạn-có-bao-giờ-trông-như-thế-này-không&#34;&gt;File của bạn có bao giờ trông như thế này không?&lt;/h2&gt;&#xA;&lt;p&gt;Mình cá là có:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SOLID cho sinh viên: 5 nguyên tắc vàng để code Java &#39;sạch&#39; hơn</title>
+      <link>http://localhost:1313/blog/solid/</link>
+      <pubDate>Sat, 11 Oct 2025 12:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/solid/</guid>
+      <description>&lt;h2 id=&#34;code-chạy-được-nhưng-đã-tốt-chưa&#34;&gt;Code chạy được, nhưng đã &amp;ldquo;tốt&amp;rdquo; chưa?&lt;/h2&gt;&#xA;&lt;p&gt;Chào mọi người, hồi năm hai, mình từng rất tự hào khi code xong một chương trình quản lý sinh viên bằng Java. Nó chạy được, thêm, xóa, sửa ngon lành. Nhưng khi thầy giáo yêu cầu thêm một chức năng mới, ví dụ như &amp;ldquo;xuất danh sách ra file PDF&amp;rdquo; thay vì chỉ là file text, mình đã phải sửa lại rất nhiều file, và lỡ tay làm hỏng vài chức năng cũ. 😫&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Làm chủ Array Methods: map, filter, reduce trong 5 phút</title>
+      <link>http://localhost:1313/blog/lam-chu-array-methods/</link>
+      <pubDate>Fri, 10 Oct 2025 23:35:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/lam-chu-array-methods/</guid>
+      <description>&lt;h2 id=&#34;giới-thiệu&#34;&gt;Giới thiệu&lt;/h2&gt;&#xA;&lt;p&gt;Khi mới học JavaScript, mình cũng như nhiều bạn khác, hễ cứ đụng đến mảng (array) là lại dùng vòng lặp &lt;code&gt;for&lt;/code&gt;. Muốn nhân đôi các số trong mảng? Dùng . Muốn lọc ra các số chẵn? Lại dùng &lt;code&gt;for&lt;/code&gt;. Code thì chạy được, nhưng trông rất dài và đôi khi khó đọc.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

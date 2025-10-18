@@ -1,1 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Blog của tôi</title><link>https://trannhathuy6524.github.io/categories/</link><description>Recent content in Categories on Blog của tôi</description><generator>Hugo</generator><language>vi</language><lastBuildDate>Sat, 11 Oct 2025 16:15:00 +0700</lastBuildDate><atom:link href="https://trannhathuy6524.github.io/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Dữ Liệu</title><link>https://trannhathuy6524.github.io/categories/d%E1%BB%AF-li%E1%BB%87u/</link><pubDate>Sat, 11 Oct 2025 16:15:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/categories/d%E1%BB%AF-li%E1%BB%87u/</guid><description/></item><item><title>Lập Trình</title><link>https://trannhathuy6524.github.io/categories/l%E1%BA%ADp-tr%C3%ACnh/</link><pubDate>Sat, 11 Oct 2025 16:15:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/categories/l%E1%BA%ADp-tr%C3%ACnh/</guid><description/></item><item><title>Frontend</title><link>https://trannhathuy6524.github.io/categories/frontend/</link><pubDate>Sat, 11 Oct 2025 14:05:27 +0700</pubDate><guid>https://trannhathuy6524.github.io/categories/frontend/</guid><description/></item><item><title>JavaScript</title><link>https://trannhathuy6524.github.io/categories/javascript/</link><pubDate>Sat, 11 Oct 2025 14:05:27 +0700</pubDate><guid>https://trannhathuy6524.github.io/categories/javascript/</guid><description/></item><item><title>Java</title><link>https://trannhathuy6524.github.io/categories/java/</link><pubDate>Sat, 11 Oct 2025 13:45:00 +0700</pubDate><guid>https://trannhathuy6524.github.io/categories/java/</guid><description/></item><item><title>Công Cụ</title><link>https://trannhathuy6524.github.io/categories/c%C3%B4ng-c%E1%BB%A5/</link><pubDate>Sat, 11 Oct 2025 12:37:53 +0700</pubDate><guid>https://trannhathuy6524.github.io/categories/c%C3%B4ng-c%E1%BB%A5/</guid><description/></item><item><title>General</title><link>https://trannhathuy6524.github.io/categories/general/</link><pubDate>Sat, 04 Oct 2025 17:39:26 +0700</pubDate><guid>https://trannhathuy6524.github.io/categories/general/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Blog của tôi</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Blog của tôi</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Sat, 11 Oct 2025 16:15:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dữ Liệu</title>
+      <link>http://localhost:1313/categories/d%E1%BB%AF-li%E1%BB%87u/</link>
+      <pubDate>Sat, 11 Oct 2025 16:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/categories/d%E1%BB%AF-li%E1%BB%87u/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lập Trình</title>
+      <link>http://localhost:1313/categories/l%E1%BA%ADp-tr%C3%ACnh/</link>
+      <pubDate>Sat, 11 Oct 2025 16:15:00 +0700</pubDate>
+      <guid>http://localhost:1313/categories/l%E1%BA%ADp-tr%C3%ACnh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>http://localhost:1313/categories/frontend/</link>
+      <pubDate>Sat, 11 Oct 2025 14:05:27 +0700</pubDate>
+      <guid>http://localhost:1313/categories/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JavaScript</title>
+      <link>http://localhost:1313/categories/javascript/</link>
+      <pubDate>Sat, 11 Oct 2025 14:05:27 +0700</pubDate>
+      <guid>http://localhost:1313/categories/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/categories/java/</link>
+      <pubDate>Sat, 11 Oct 2025 13:45:00 +0700</pubDate>
+      <guid>http://localhost:1313/categories/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Công Cụ</title>
+      <link>http://localhost:1313/categories/c%C3%B4ng-c%E1%BB%A5/</link>
+      <pubDate>Sat, 11 Oct 2025 12:37:53 +0700</pubDate>
+      <guid>http://localhost:1313/categories/c%C3%B4ng-c%E1%BB%A5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/categories/general/</link>
+      <pubDate>Sat, 04 Oct 2025 17:39:26 +0700</pubDate>
+      <guid>http://localhost:1313/categories/general/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

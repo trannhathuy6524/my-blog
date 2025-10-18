@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exception on Blog của tôi</title>
+    <link>http://localhost:1313/tags/exception/</link>
+    <description>Recent content in Exception on Blog của tôi</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <lastBuildDate>Sat, 11 Oct 2025 17:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/exception/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Đừng sợ &#39;chữ đỏ&#39;: Làm chủ Exception Handling (try-catch) trong Java</title>
+      <link>http://localhost:1313/blog/java-exception-handling/</link>
+      <pubDate>Sat, 11 Oct 2025 17:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/blog/java-exception-handling/</guid>
+      <description>&lt;h2 id=&#34;bức-tường-chữ-đỏ-đáng-sợ&#34;&gt;Bức tường &amp;ldquo;chữ đỏ&amp;rdquo; đáng sợ&lt;/h2&gt;&#xA;&lt;p&gt;Chắc chắn bạn đã từng trải qua cảm giác này: bạn code hì hục, bấm nút Run, và&amp;hellip; BÙM! 💥 Toàn bộ cửa sổ console hiện lên một bức tường &amp;ldquo;chữ đỏ&amp;rdquo; dài ngoằng, chương trình của bạn &amp;ldquo;sập&amp;rdquo; ngay lập tức.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
